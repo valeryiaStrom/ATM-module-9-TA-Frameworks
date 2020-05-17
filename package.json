@@ -1,0 +1,24 @@
+{
+  "name": "atm-module-9-ta-frameworks",
+  "version": "1.0.0",
+  "description": "hometask for module 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeryiaStrom/ATM-module-9-TA-Frameworks.git"
+  },
+  "author": "Valeryia Strom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeryiaStrom/ATM-module-9-TA-Frameworks/issues"
+  },
+  "homepage": "https://github.com/valeryiaStrom/ATM-module-9-TA-Frameworks#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "protractor": "^7.0.0"
+  }
+}
