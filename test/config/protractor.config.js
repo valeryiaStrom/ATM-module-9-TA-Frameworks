@@ -1,10 +1,9 @@
 exports.config = {
   capabilities: {
     'browserName': 'chrome',
+    'chromeOptions': {'w3c': false},
   },
-  //directConnect: true,
   seleniumAddress: 'http://localhost:4444/wd/hub/',
-  //baseUrl: 'localhost',
   framework: 'mocha',
   specs: [
     '../specs/*.js',

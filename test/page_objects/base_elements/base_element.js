@@ -6,9 +6,6 @@ class Element {
       case 'css':
         this.element = element(by.css(selector));
         break;
-      case 'xpath':
-        this.element = element(by.xpath(selector));
-        break;
       case 'id':
         this.element = element(by.id(selector));
         break;

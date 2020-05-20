@@ -4,9 +4,6 @@ class Collection {
       case 'css':
         this.collection = element.all(by.css(selector));
         break;
-      case 'xpath':
-        this.collection = element.all(by.xpath(selector));
-        break;
       case 'id':
         this.collection = element.all(by.id(selector));
         break;
