@@ -1,5 +1,3 @@
-const EC = protractor.ExpectedConditions;
-
 class Element {
   constructor(selectorType, selector) {
     switch (selectorType) {
@@ -10,7 +8,7 @@ class Element {
         this.element = element(by.id(selector));
         break;
       default:
-        throw new Error(`Selector type [${selectorType}] is not recognized. Try to use one of the following selector types: css, xpath, id.`);
+        throw new Error(`Selector type [${selectorType}] is not recognized. Try to use one of the following selector types: css, id.`);
     }
   }
   click() {

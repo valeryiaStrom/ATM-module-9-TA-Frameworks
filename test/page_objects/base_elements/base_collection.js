@@ -8,7 +8,7 @@ class Collection {
         this.collection = element.all(by.id(selector));
         break;
       default:
-        throw new Error(`Selector type [${selectorType}] is not recognized. Try to use one of the following selector types: css, xpath, id.`);
+        throw new Error(`Selector type [${selectorType}] is not recognized. Try to use one of the following selector types: css, id.`);
     }
   }
   async countItems() {
